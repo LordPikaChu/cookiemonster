@@ -1,0 +1,30 @@
+{
+  "name": "cookiemonster",
+  "version": "0.1.0",
+  "description": "CookieMonster Slackbot",
+  "main": "server/index.js",
+  "engines": {
+    "node": "7.9.1"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordPikaChu/cookiemonster.git"
+  },
+  "keywords": [
+    "node",
+    "slackbot",
+    "cookie",
+    "monster",
+    "cookiemonster"
+  ],
+  "author": "Mateusz Hajdziony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordPikaChu/cookiemonster/issues"
+  },
+  "homepage": "https://github.com/LordPikaChu/cookiemonster#readme"
+}
