@@ -1,11 +1,11 @@
 import Botkit from 'botkit';
 
-import slackConfig from '../slack.config.json';
+import CONFIG from '../config';
 
 var controller = Botkit.slackbot({debug: false})
 controller
   .spawn({
-    token: slackConfig['bot_user_access_token']
+    token: CONFIG.BOT_AUTH_TOKEN
   })
   .startRTM(function (err) {
     if (err) {
