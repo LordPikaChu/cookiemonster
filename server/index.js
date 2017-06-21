@@ -2,8 +2,6 @@ import Botkit from 'botkit';
 
 import slackConfig from '../slack.config.json';
 
-console.log(Botkit);
-
 var controller = Botkit.slackbot({debug: false})
 controller
   .spawn({
