@@ -1,1 +1,1 @@
-web: babel-node server/index.js
+bot: babel-node server/index.js
