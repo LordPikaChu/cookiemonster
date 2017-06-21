@@ -1,5 +1,9 @@
-import SLACK_CONFIG from './slack.config.json';
+let slackConfig = null;
+
+if (!process.env.BOT_AUTH_TOKEN) {
+  slackConfig = require('./slack.config.json');
+}
 
 export default {
-  BOT_AUTH_TOKEN: process.env.BOT_AUTH_TOKEN || SLACK_CONFIG['bot_user_access_token']
+  BOT_AUTH_TOKEN: process.env.BOT_AUTH_TOKEN || slackConfig['bot_user_access_token']
 }
