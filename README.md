@@ -28,13 +28,10 @@
 
 1. Checkout from GitHub repository
 2. Navigate to project's folder
-3. Create new Heroku app and add it as remote to your local GIT repository ```
-heroku create <your-app-name>
-```
-4. Set the bot user's OAuth access token as environmental variable for your Heroku Node server by running the following command: ```
-heroku config:set BOT_AUTH_TOKEN=<access-token-here>
-```
-5. Deploy the app on Heroku ```
-git push heroku master
-```
+3. Create new Heroku app and add it as remote to your local GIT repository
+`heroku create <your-app-name>``
+4. Set the bot user's OAuth access token as environmental variable for your Heroku Node server by running the following command:
+`heroku config:set BOT_AUTH_TOKEN=<access-token-here>`
+5. Deploy the app on Heroku
+`git push heroku master`
 6. You should now see the bot user as online on your Slack channel
